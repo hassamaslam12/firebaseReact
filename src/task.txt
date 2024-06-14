@@ -1,0 +1,28 @@
+1.	pages
+a.	askQuestion (route = "/askquestion")
+i.	textarea (where user write question)
+ii.	add button (by clicking this button Question send to Database)
+
+b.	allQuestion (route = "/")
+i.	all Questions Show in this screen
+ii.	on clicking Question this will route to "/question/questionId"
+
+c.	question (route = "/question/:id")
+i.	in this page single Question show on the base of :id.
+
+2.	config
+a.	appRouter
+b.	firebaseConfig
+c.	firebaseMethods
+3.	Components
+a.	QuestionComponent
+b.	Input
+c.	Button
+4.	Layout (optional)
+a.	Header
+b.	Footer
+5.	Dependencies
+a.	material UI
+b.	bootstrap
+c.	react-router-dom
+d.	firebase
